@@ -1,39 +1,39 @@
 題目1:
-int x =250;(設定最大值)
+int x =250;(設定最大值)<br>
 
-int y =25;(遞增數值)
+int y =25;(遞增數值)<br>
 
-void setup() {
+void setup() {<br>
 
-  // put your setup code here, to run once:
-
-
-
-  pinMode (3,OUTPUT);(設定輸出腳)
-
-}
+  // put your setup code here, to run once:<br>
 
 
 
-void loop() {
+  pinMode (3,OUTPUT);(設定輸出腳)<br>
 
-  // put your main code here, to run repeatedly:
+}<br>
 
-   analogWrite(3,x);
 
-   x = x-y;
 
-   if(x ==0 || x ==250)
+void loop() {<br>
 
-   y = -y;
+  // put your main code here, to run repeatedly:<br>
 
-   delay(80);(延遲)
+   analogWrite(3,x);<br>
 
-   }
+   x = x-y;<br>
+
+   if(x ==0 || x ==250)<br>
+
+   y = -y;<br>
+
+   delay(80);(延遲)<br>
+
+   }<br>
    
 
   
 
 
 
-題目遺失
+題目遺失<br>

@@ -1,7 +1,7 @@
 題目1:
-int x =255;
+int x =250;(設定最大值)
 
-int y =5;
+int y =25;(遞增數值)
 
 void setup() {
 
@@ -9,7 +9,7 @@ void setup() {
 
 
 
-  pinMode (3,OUTPUT);
+  pinMode (3,OUTPUT);(設定輸出腳)
 
 }
 
@@ -23,11 +23,11 @@ void loop() {
 
    x = x-y;
 
-   if(x ==0 || x ==255)
+   if(x ==0 || x ==250)
 
    y = -y;
 
-   delay(80);
+   delay(80);(延遲)
 
    }
    

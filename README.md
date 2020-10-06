@@ -32,7 +32,7 @@ void loop() {<br>
 
    }<br>
    ```
-   圖:![image]
+   圖:![image](https://github.com/EN-PEN/Breathing-light/blob/master/IMG20201006102607.jpg)
 
   
 
